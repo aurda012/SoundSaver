@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E81F0B1F0F8D3700EF62A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E81F0A1F0F8D3700EF62A5 /* AppDelegate.swift */; };
+		09E81F0D1F0F8D3700EF62A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E81F0C1F0F8D3700EF62A5 /* ViewController.swift */; };
+		09E81F101F0F8D3700EF62A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E81F0E1F0F8D3700EF62A5 /* Main.storyboard */; };
+		09E81F131F0F8D3700EF62A5 /* Sound_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09E81F111F0F8D3700EF62A5 /* Sound_Saver.xcdatamodeld */; };
+		09E81F151F0F8D3700EF62A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E81F141F0F8D3700EF62A5 /* Assets.xcassets */; };
+		09E81F181F0F8D3700EF62A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E81F161F0F8D3700EF62A5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09E81F071F0F8D3700EF62A5 /* Sound Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E81F0A1F0F8D3700EF62A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09E81F0C1F0F8D3700EF62A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09E81F0F1F0F8D3700EF62A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09E81F121F0F8D3700EF62A5 /* Sound_Saver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sound_Saver.xcdatamodel; sourceTree = "<group>"; };
+		09E81F141F0F8D3700EF62A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09E81F171F0F8D3700EF62A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09E81F191F0F8D3700EF62A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E81F041F0F8D3700EF62A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E81EFE1F0F8D3700EF62A5 = {
+			isa = PBXGroup;
+			children = (
+				09E81F091F0F8D3700EF62A5 /* Sound Saver */,
+				09E81F081F0F8D3700EF62A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09E81F081F0F8D3700EF62A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E81F071F0F8D3700EF62A5 /* Sound Saver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E81F091F0F8D3700EF62A5 /* Sound Saver */ = {
+			isa = PBXGroup;
+			children = (
+				09E81F0A1F0F8D3700EF62A5 /* AppDelegate.swift */,
+				09E81F0C1F0F8D3700EF62A5 /* ViewController.swift */,
+				09E81F0E1F0F8D3700EF62A5 /* Main.storyboard */,
+				09E81F141F0F8D3700EF62A5 /* Assets.xcassets */,
+				09E81F161F0F8D3700EF62A5 /* LaunchScreen.storyboard */,
+				09E81F191F0F8D3700EF62A5 /* Info.plist */,
+				09E81F111F0F8D3700EF62A5 /* Sound_Saver.xcdatamodeld */,
+			);
+			path = "Sound Saver";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E81F061F0F8D3700EF62A5 /* Sound Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E81F1C1F0F8D3700EF62A5 /* Build configuration list for PBXNativeTarget "Sound Saver" */;
+			buildPhases = (
+				09E81F031F0F8D3700EF62A5 /* Sources */,
+				09E81F041F0F8D3700EF62A5 /* Frameworks */,
+				09E81F051F0F8D3700EF62A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sound Saver";
+			productName = "Sound Saver";
+			productReference = 09E81F071F0F8D3700EF62A5 /* Sound Saver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09E81EFF1F0F8D3700EF62A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AlfredosApps;
+				TargetAttributes = {
+					09E81F061F0F8D3700EF62A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09E81F021F0F8D3700EF62A5 /* Build configuration list for PBXProject "Sound Saver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09E81EFE1F0F8D3700EF62A5;
+			productRefGroup = 09E81F081F0F8D3700EF62A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09E81F061F0F8D3700EF62A5 /* Sound Saver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09E81F051F0F8D3700EF62A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E81F181F0F8D3700EF62A5 /* LaunchScreen.storyboard in Resources */,
+				09E81F151F0F8D3700EF62A5 /* Assets.xcassets in Resources */,
+				09E81F101F0F8D3700EF62A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E81F031F0F8D3700EF62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E81F0D1F0F8D3700EF62A5 /* ViewController.swift in Sources */,
+				09E81F131F0F8D3700EF62A5 /* Sound_Saver.xcdatamodeld in Sources */,
+				09E81F0B1F0F8D3700EF62A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09E81F0E1F0F8D3700EF62A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E81F0F1F0F8D3700EF62A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09E81F161F0F8D3700EF62A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E81F171F0F8D3700EF62A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E81F1A1F0F8D3700EF62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09E81F1B1F0F8D3700EF62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09E81F1D1F0F8D3700EF62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sound Saver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfredosapps.Sound-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		09E81F1E1F0F8D3700EF62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sound Saver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfredosapps.Sound-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E81F021F0F8D3700EF62A5 /* Build configuration list for PBXProject "Sound Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E81F1A1F0F8D3700EF62A5 /* Debug */,
+				09E81F1B1F0F8D3700EF62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E81F1C1F0F8D3700EF62A5 /* Build configuration list for PBXNativeTarget "Sound Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E81F1D1F0F8D3700EF62A5 /* Debug */,
+				09E81F1E1F0F8D3700EF62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09E81F111F0F8D3700EF62A5 /* Sound_Saver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09E81F121F0F8D3700EF62A5 /* Sound_Saver.xcdatamodel */,
+			);
+			currentVersion = 09E81F121F0F8D3700EF62A5 /* Sound_Saver.xcdatamodel */;
+			path = Sound_Saver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09E81EFF1F0F8D3700EF62A5 /* Project object */;
+}
